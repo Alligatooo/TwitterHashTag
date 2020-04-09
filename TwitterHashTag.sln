@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "TwitterHashTag", "TwitterHashTag\TwitterHashTag.njsproj", "{2D83FB76-A0F1-451A-872B-3602C6FEA255}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D83FB76-A0F1-451A-872B-3602C6FEA255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D83FB76-A0F1-451A-872B-3602C6FEA255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D83FB76-A0F1-451A-872B-3602C6FEA255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D83FB76-A0F1-451A-872B-3602C6FEA255}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80CFA2C8-D8F4-4D3F-B1F0-C5F8BC12A9EC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>
+        The hashtag datacollector!
+    </title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <h1>
+        <label id="lblToClick">Mystical label</label>
+    </h1>
+<form action="\">
+    <label for="q">Hashtag:</label>
+    <br>
+    <input type="text" id="hashtag" name="hashtag" value="#Corona">
+    <br>
+    <input type="submit" value="Submit">
+</form>
+<script>
+    document.getElementById("lblToClick").addEventListener("click",
+        function() {
+            var en = document.getElementById("hashtag");
+            if (en.value == "#Corona") {
+                en.value = "#Trump";
+            } else {
+                en.value = "#Corona";
+            }
+        });
+</script>
+<script src="client.js"></script>
+</body>
+</html>
